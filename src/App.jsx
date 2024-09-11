@@ -14,7 +14,7 @@ const renderRoutes = (routes) => (
         >
             {children && renderRoutes(children)}
         </Route>
-    ))
+    )) 
 );
 
 const App = () => {
